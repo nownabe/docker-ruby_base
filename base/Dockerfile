@@ -25,6 +25,11 @@ ENV LANGUAGE ja_JP.UTF-8
 ENV LC_ALL ja_JP.UTF-8
 RUN update-locale LANG=ja_JP.UTF-8
 
+# Install Git
+RUN apt-get update && \
+    apt-get install -y -q --no-install-recommends git && \
+        rm -rf /var/lib/apt/lists/*
+
 # Install Ruby
 RUN apt-get update && \
     apt-get install -y -q --no-install-recommends \

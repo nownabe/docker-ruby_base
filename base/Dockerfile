@@ -2,7 +2,7 @@ FROM phusion/baseimage
 MAINTAINER nownabe <nownabe@gmail.com>
 
 ENV RUBY_MAJOR 2.2
-ENV RUBY_VERSION 2.2.1
+ENV RUBY_VERSION 2.2.2
 
 ENV DEBIAN_FRONTEND noninteractive
 

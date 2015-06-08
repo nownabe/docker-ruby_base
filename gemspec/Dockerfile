@@ -1,4 +1,4 @@
-FROM nownabe/2.2.1-base
+FROM nownabe/2.2.2-base
 MAINTAINER nownabe <nownabe@gmail.com>
 
 RUN mkdir /usr/src/app
